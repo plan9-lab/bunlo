@@ -1,5 +1,7 @@
 {
-  "name": "baologger",
+  "name": "bunlo",
+  "version": "0.0.2",
+  "description": "A bun-based loggger",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
