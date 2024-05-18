@@ -13,15 +13,21 @@ A simple typescript logger for Bun.
 To install dependencies:
 
 ```bash
-bun i
+bun i git@github.com:plan9-lab/bunlo.git
+```
+
+or for a specific version:
+
+```bash
+bun i git@github.com:plan9-lab/bunlo.git#0.0.2
 ```
 
 ```typescript
-import { Bunlo } from 'bunlo'
+import { Bunlo } from "bunlo";
 
-const bunlo = new Bunlo('server')
+const bunlo = new Bunlo("server");
 
-bunlo.log('hello world')
+bunlo.log("hello world");
 ```
 
 To test:
